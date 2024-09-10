@@ -4,13 +4,15 @@ Current status: in preparation
 
 # GOAL of the Project
 
+Agricultural landuse strongly impacts freshwater organisms. Many studies have related proportion the catchment area under cultivation to various metrics of freshwater system status. Here, we argue that a second factor that is computed just as easily is commonly ignored, but commonly explains additionaly variance: the diversity of land cover types. We conduct three small analyses to highlight the importance of land cover diversity to different freshwater state mertics.  
+
 ## Analysis pipeline 
 
-Example one: Explaining ecological stauts. 
+Analysis one: Explaining ecological stauts. 
 
-Example two: Predicting the occurrence of invertebrates
+Analysis two: Predicting the occurrence of invertebrates
 
-Example three: Predicting the occurrence of diatoms
+Analysis three: Predicting the occurrence of diatoms
 
 
 # Overview of Repository
