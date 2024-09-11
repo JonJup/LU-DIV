@@ -4,16 +4,23 @@ Current status: in preparation
 
 # GOAL of the Project
 
-Agricultural landuse strongly impacts freshwater organisms. Many studies have related proportion the catchment area under cultivation to various metrics of freshwater system status. Here, we argue that a second factor that is computed just as easily is commonly ignored, but commonly explains additionaly variance: the diversity of land cover types. We conduct three small analyses to highlight the importance of land cover diversity to different freshwater state mertics.  
+Agricultural landuse strongly impacts freshwater organisms. Many studies have successfully related the proportion of the catchment area under cultivation to various metrics of freshwater system status. Here, we argue that a second factor, which is computed just as easily, is commonly ignored, but explains additionaly variance: the diversity of land cover types. We conduct three small analyses to highlight the importance of land cover diversity to different freshwater state mertics.  
 
 ## Analysis pipeline 
 
+#todos
+- add link to wfd; ehype
+
 Analysis one: Explaining ecological stauts. 
+
+The Water Framework Directive regulates protective and management actions concerning freshwater ecosystems across Europe. Under it, all waterbodies are assigned one of fit status classes: bad, poor, moderate, good, high. Lemm *et al.* (2021) have compiled these data for the EHYPE catchment data base together with a selction of stressors. They used these data to establish a link between stressor intensity and ecological status. We add the Shannon diversity of land use and land cover and explore how much addtional variation can be explained by it. 
 
 Analysis two: Predicting the occurrence of invertebrates
 
-Analysis three: Predicting the occurrence of diatoms
+Next we aim to predict the abundance of invertebrates in four independet data sets. Each data set covers a whole country: Finland, France, Germany, or the UK. We collected environmental predictors including landscape composition and configuration (i.e. Shannon Diversity) and predict species abundances using the joint species distribution model HMSC. The explained variance will be partitioned between explanaotry variables to determine the role of environmental drivers across species.   
 
+Analysis three: Predicting the occurrence of diatoms
+Same as Analysis two but with diatoms. This adds a further dimension to the analysis as diatoms are primarily impacted more strongly by nutrients and macroinvertebrates by pesticides. 
 
 # Overview of Repository
 The repository has three folders: data, code, and document. 
