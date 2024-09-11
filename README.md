@@ -16,7 +16,8 @@ Analysis two: Predicting the occurrence of invertebrates
 
 Next we aim to predict the abundance of invertebrates in four independet data sets. Each data set covers a whole country: Finland, France, Germany, or the UK. We collected environmental predictors including landscape composition and configuration (i.e. Shannon Diversity) and predict species abundances using the joint species distribution model HMSC. The explained variance will be partitioned between explanaotry variables to determine the role of environmental drivers across species.   
 
-Analysis three: Predicting the occurrence of diatoms    
+Analysis three: Predicting the occurrence of diatoms  
+
 Same as Analysis two but with diatoms. This adds a further dimension to the analysis as diatoms are primarily impacted more strongly by nutrients and macroinvertebrates by pesticides. 
 
 # Overview of Repository
