@@ -1,0 +1,11 @@
+---
+title: "methods"
+author: "Jonathan Jupke"
+date: "2024-09-09"
+output: word_document
+---
+
+## HMSC models 
+
+For the HMSC models were prepared the following environmental variables. For each EHYPE catchment, we computed the mean surface soil pH as of 2016 (Witjes et al. 2023), and bioclim chelsea,
+From the xxx DEM, we computed the slope, roughness, and elevation. 
